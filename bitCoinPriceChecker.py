@@ -1,7 +1,7 @@
 import requests
 import json
 import smtplib
-
+#Edited
 def send_mail(price):
 	server = smtplib.SMTP('smtp.gmail.com', 587)
 	server.ehlo()
